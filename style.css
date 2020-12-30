@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* position */
+
+/* .parent .child-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  z-index: 10;
+}
+
+.parent .child-2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+} */
+
+/* .parent .child-3 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 9; */
+/* top: 0;
+  left: 10px; */
+/* left, right, bottom */
+/* } */
+
+/* .parent {
+  margin-top: 10px;
+  position: relative;
+} */
+
+.component-wrapper {
+  width: 480px;
+  position: relative;
+}
+
+.component-wrapper img {
+  width: 100%;
+}
+
+.component-wrapper a {
+  text-decoration: none;
+  color: #c00000;
+  background-color: #fbeba9;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 17px;
+  position: absolute;
+  top: 154px;
+  left: 287px;
+}
+
+.component-wrapper .sub-title {
+  color: #79797c;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.component-wrapper .title {
+  color: #3e3e3c;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.component-wrapper .description {
+  color: #79797c;
+  margin-bottom: 10px;
+}
+/* flexbox */
